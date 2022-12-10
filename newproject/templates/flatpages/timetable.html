@@ -1,0 +1,82 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <h2>{{ flatpage.title }}</h2>
+    <hr>
+    <h3>Расписание занятий</h3>
+{{ flatpage.content }}
+
+<table width="597">
+<tbody>
+<tr>
+<td width="189">
+    <hr>
+<p>Модуль</p>
+    <hr>
+</td>
+<td width="180">
+     <hr>
+<p>Дата открытия модулей</p>
+    <hr>
+</td>
+<td width="228">
+     <hr>
+<p>Дедлайн по ДЗ (включенный)</p>
+    <hr>
+</td>
+<td width="1">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="597">
+<p><strong>1. Введение в IT</strong></p>
+</td>
+</tr>
+<tr>
+<td width="189">
+    <hr>
+<p>Бонусный: Введение</p>
+    <hr>
+</td>
+<td width="180">
+    <hr>
+<p><strong>02.09.2022</strong></p>
+    <hr>
+</td>
+<td width="228">
+    <hr>
+<p><strong>нет дедлайна</strong></p>
+    <hr>
+</td>
+<td width="1">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td width="189">
+    <hr>
+<p>Бонусный: IT в современном мире</p>
+    <hr>
+</td>
+<td width="180">
+    <hr>
+<p><strong>02.09.2022</strong></p>
+    <hr>
+</td>
+<td width="228">
+    <hr>
+<p><strong>нет дедлайна</strong></p>
+    <hr>
+</td>
+<td width="1">
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+{% endblock content %}
